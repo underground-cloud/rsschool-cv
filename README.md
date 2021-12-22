@@ -1,1 +1,1 @@
-[https://github.com/underground-cloud/rsschool-cv/blob/gh-pages/cv.md]()
+[https://underground-cloud.github.io/rsschool-cv/cv]()
