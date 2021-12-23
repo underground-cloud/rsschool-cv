@@ -1,1 +1,1 @@
-[https://underground-cloud.github.io/rsschool-cv/cv]
+https://underground-cloud.github.io/rsschool-cv/cv
