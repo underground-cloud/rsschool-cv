@@ -6,3 +6,6 @@ body {
 .header {
     display: flex;
 }
+div {
+    display: flex;
+}
