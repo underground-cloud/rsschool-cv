@@ -1,14 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+
 body {
+    min-width: 700px;
+    margin: 0 auto;
     background: rgb(51, 50, 50);
     color: rgb(214, 176, 255);
 } 
 .title {
-    min-width: 700px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-around;
 }
@@ -48,4 +45,7 @@ h1 {
 }
 span {
     font-weight: 900;
+}
+p {
+    display: inline;
 }
