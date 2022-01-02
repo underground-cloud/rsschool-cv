@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgb(190, 246, 246);
+    color: rgb(58, 3, 114);
+}
+.title {
+    display: flex;
+}
+img {
+    max-width:  20%;
+    max-height: 20%;
+}
