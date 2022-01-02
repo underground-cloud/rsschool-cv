@@ -1,22 +1,51 @@
-
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     background: rgb(51, 50, 50);
     color: rgb(214, 176, 255);
-}
+} 
 .title {
+    min-width: 700px;
+    margin: 0 auto;
     display: flex;
+    justify-content: space-around;
 }
 img {
-    max-width:  20%;
-    max-height: 20%;
+    max-width:   200px;
+    max-height: 200px;
     border-radius: 150px;
 }
-ul {
+ul.contact, ul.menu {
     display: flex;
-    justify-content: space-between;
-    list-style-type: none;
+    justify-content: space-around;
 }
-/* li {
+ul.contact li, ul.menu li {
     height: fit-content;
     width: fit-content;
+    list-style-type: none;
+} 
+ /* .main {
+    display: flex;
+    flex-wrap: wrap;
+} 
+.about {
+    width: 100%;
+}
+.skills {
+    width: 100%;
+}
+.education {
+    width: 100%;
 } */
+
+h1 {
+    padding: 15px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 65px;
+}
+span {
+    font-weight: 900;
+}
