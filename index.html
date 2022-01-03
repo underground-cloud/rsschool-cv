@@ -1,42 +1,87 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css" type="css/text">
+    <link rel="stylesheet" href="style.css">
     <title>CV</title>
 </head>
 <body>
-    <div>
-        <img src="#" alt="photo">
-    </div>
-    <h1><span>Hi, I am</span> Valentin Grishaev</h1>
-    <hr>
-    <div>
-        <ul class="contact">
-            <li>telegram: </li>
-            <li>email</li>
-            <li>phone</li>
-        </ul>
-    </div>
-    <div class="about">
-        <div class="about__title"></div>
-        <div class="about__description"></div>
-    </div>
-    <div class="education">
-        <div class="education__title"></div>
-        <div class="education__description"></div>
-    </div>
-    <div class="work">
-        <div class="work__title"></div>
-        <div class="work__description"></div>
-    </div>
-    <div class="skills_and_language">
-        <div class="skills_and_language__title"></div>
-        <div class="skills_and_language__description"></div>
-    </div>
+    <div class="container">
+        <header class="header">
+            <ul class="contact" id="contact--title">
+                <li class="contact-item">telegram: @wwwwwolt</li>
+                <li class="contact-item">mail: 138fwwwa@gmail.com</li>
+                <li class="contact-item">phone: +79855289258</li>
+            </ul>
+            <section class="title header-section">
+                <img src="img/my_photo.jpg" alt="my photo" class="my-photo">
+                <div class="greeting">
+                    <h1>Hi, I am <span>Valentin</span> frontend-developer</h1>
+                </div>
+            </section>
+        
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contact--title" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="#about--title" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills--title" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#education--title" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#project--title" class="nav-link">Project</a></li>
+                    <li class="nav-item"><a href="#code--title" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#language--title" class="nav-link">Language</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main main-container">
+            <section class="about section"  id="about--title">
+                <h2>About me</h2>
+                I am beginner frontend-developer. I know basic HTML, CSS and Photoshop, but want to study soon JS and other technology needed to work.
+                I want to be frontend-developer. For this I am studying at RS School:)</section>
+            <section class="skills section">
+                <h2 id="skills--title">My skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Photoshop</li>
+                </ul>
+            </section>
+            <section class="education section">
+                <h2 id="education--title">Education</h2>
+                <ul>
+                    <li>Selfeducation</li>
+                    <li>RS School(in progress)</li>
+                </ul>
+            </section>
+            <section class="code section">
+                <h2 id="code--title">Example code</h2>
+                <code>function multiply (a, b) {
+                    return a * b
+                    }</code>
+            </section>
+        
+            <section class="project section">
+                <h2 id="project--title">My project</h2>
+                <ul>
+                    <li><a href="https://underground-cloud.github.io/rsschool-cv/">My CV</a></li>
+                </ul>
+            </section>
 
-
+            <section class="language section">
+                <h2 id="language--title">Language</h2>
+                <ul>
+                    <li>Russian - Native</li>
+                    <li>English - A1-A2</li>
+                </ul>
+            </section>
+        </main>
+        <footer class="footer">
+            <p>2022&copy;</p>
+            <a href="https://github.com/underground-cloud"><img class="github" src="/img/svg/github.svg" alt="github-logo"></a>
+            <a href="https://rs.school/js/"><img class="logo" src="https://rs.school/images/rs_school_js.svg" alt="logo"></a>
+        </footer>
+    </div>
 </body>
 </html>
